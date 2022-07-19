@@ -50,5 +50,28 @@ aside {
 
 #fiveDay {
     height: 100%;
-    
 }
+
+@media screen and (max-width: 925px) {
+    body div {
+        display: block
+    }
+    #weather {
+        height: 50%;
+    }
+
+    #weatherInfo {
+        width: 75%;
+    }
+
+    #cities {
+        display: none;
+    }
+
+    .fiveWeather {
+        display: block;
+    }
+
+
+    
+    }
