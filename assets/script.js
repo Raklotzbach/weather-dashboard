@@ -2,12 +2,14 @@ var apiKey = "e6befcf36e16d40cbedb800e2331ac1d"
 var searchButton =document.querySelector("#searchBtn");
 var cityInput =document.querySelector("#cityInput");
 var weatherName =document.querySelector("#weatherName");
+var view = document.querySelector(".hide");
 
 $("#currentDay").html(moment().format('dddd, MMMM Do YYYY'))
 
 searchButton.addEventListener("click", function() {
     var currentWeatherimage =document.querySelector("#weather")
     var li =document.querySelector(".fiveWeather")
+    view.classList.remove("hide");
     currentWeatherimage.innerHTML= "";
     li.innerHTML= "";
     todaysWeather(cityInput.value);
