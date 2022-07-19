@@ -2,10 +2,6 @@ body div {
     display: flex;
 }
 
-.hide {
-    display: none;
-}
-
 #weatherName {
     font-size: 50px;
     text-decoration: underline;
@@ -60,6 +56,10 @@ aside {
     body div {
         display: block
     }
+    #image {
+        height: 25px;
+        width: 25px;
+    }
     #weather {
         height: 50%;
     }
@@ -75,7 +75,4 @@ aside {
     .fiveWeather {
         display: block;
     }
-
-
-    
     }
